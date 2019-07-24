@@ -1,8 +1,7 @@
 # 1a2b
-    from string import digits
- 
-    from random import randint, choice
 
+    from string import digits
+    from random import randint, choice
     print ("""A一個代表數字正確位置正確，B代表數字正確位置錯誤。直到猜中（即4A0B）為止""")
  
 #随机选出4位数
@@ -18,6 +17,7 @@
     num2 = "".join(num1)’
 
 #输入4位数
+
     num = [] 
 
     results = []
@@ -33,7 +33,8 @@
     nB = 0
 
 #判断数字是否存在以及位置是否正确并计数
-  for i in range(4) :
+
+    for i in range(4) :
   
     if num[i] in num1 :
     
@@ -50,7 +51,8 @@
       print ("you win!!")
 
 #当4个数全部正确时跳出迴圈
-      Winner = 1
+
+     Winner = 1
       
     else:
     
